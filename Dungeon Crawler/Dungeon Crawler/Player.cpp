@@ -30,22 +30,22 @@ void Player::player_mouvement(sf::Vector2f& delta)
 {
 	constexpr float player_speed = 1;
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
 		delta += sf::Vector2f(-player_speed * 40, 0);
 		player_shape_.setTexture(&player_left_texture_);
 	}
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
 	{
 		delta += sf::Vector2f(player_speed * 40, 0);
 		player_shape_.setTexture(&player_right_texture_);
 	}
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
 	{
 		delta += sf::Vector2f(0, -player_speed * 40);
 		player_shape_.setTexture(&player_up_texture_);
 	}
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
 	{
 		delta += sf::Vector2f(0, player_speed * 40);
 		player_shape_.setTexture(&player_down_texture_);

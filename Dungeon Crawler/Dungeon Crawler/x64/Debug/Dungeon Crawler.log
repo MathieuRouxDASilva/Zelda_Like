@@ -61,4 +61,24 @@ C:\Users\Mat\Desktop\SAE institute\cour et traveaux\repository cour Sae\Dungeon 
 C:\Users\Mat\Desktop\SAE institute\cour et traveaux\repository cour Sae\Dungeon Crawler\Dungeon Crawler\Game.cpp(734,26): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
 C:\Users\Mat\Desktop\SAE institute\cour et traveaux\repository cour Sae\Dungeon Crawler\Dungeon Crawler\Game.cpp(741,42): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
 C:\Users\Mat\Desktop\SAE institute\cour et traveaux\repository cour Sae\Dungeon Crawler\Dungeon Crawler\Game.cpp(741,26): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Player.cpp
+C:\Users\Mat\Desktop\SAE institute\cour et traveaux\repository cour Sae\Dungeon Crawler\Dungeon Crawler\Player.cpp(96,66): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Mat\Desktop\SAE institute\cour et traveaux\repository cour Sae\Dungeon Crawler\Dungeon Crawler\Player.cpp(96,46): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  Génération de code en cours...
   Dungeon Crawler.vcxproj -> C:\Users\Mat\Desktop\SAE institute\cour et traveaux\repository cour Sae\Dungeon Crawler\x64\Debug\Dungeon Crawler.exe
